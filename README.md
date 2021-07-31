@@ -6,20 +6,20 @@ Open a terminal window
 
 If remoting into your Raspberry Pi: ssh pi@YOUR PI'S IP ADDRESS HERE
 
-# Make your project directory:
+## Make your project directory:
 ```
 cd Desktop
 mkdir tf_pi
 cd tf_pi
 ```
-# Make a virtual environment (I'm assuming you have Python 3):
+## Make a virtual environment (I'm assuming you have Python 3):
 
 ```
 python3 -m pip install virtualenv
 virtualenv env
 source env/bin/activate
 ```
-Run the commands based on https://github.com/PINTO0309/Tensorflow-bin/#usage:
+### Run the commands based on https://github.com/PINTO0309/Tensorflow-bin/#usage:
 
 ```
 sudo apt-get install -y libhdf5-dev libc-ares-dev libeigen3-dev
@@ -31,21 +31,21 @@ sudo apt-get install -y libatlas-base-dev
 python3 -m pip install -U six wheel mock
 ```
 
-Pick a tensorflow release from https://github.com/lhelontra/tensorflow-on-arm/releases (I picked 2.0.0): 
+### Pick a tensorflow release from https://github.com/lhelontra/tensorflow-on-arm/releases (I picked 2.0.0): 
 ```
 python3 -m pip uninstall tensorflow
 python3 -m pip install tensorflow-2.0.0-cp37-none-linux_armv7l.whl
 ```
-# RESTART YOUR TERMINAL
+## RESTART YOUR TERMINAL
 
-# Reactivate your virtual environment:
+### Reactivate your virtual environment:
 ```
 cd Desktop
 cd tf_pi
 source env/bin/activate
 ```
-# Test:
-# Open a python interpreter by executing: python3 
+## Test:
+### Open a python interpreter by executing: python3 
 ```
 import tensorflow
 tensorflow.__version__
