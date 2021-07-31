@@ -50,7 +50,7 @@ tensorflow.__version__
 ```
 This should have no errors and output: 2.0.0
 
-# Single Script
+# Single Shell.sh Script
 ```
 sudo apt-get install -y libhdf5-dev libc-ares-dev libeigen3-dev
 python3 -m pip install keras_applications==1.0.8 --no-deps
