@@ -1,6 +1,5 @@
-# tf-rpi
- Installation of Tensorflow 2.0 on Raspberry Pi 4
-
+# Tensorflow Installation Raspberry Pi 4
+Installation of Tensorflow 2.0 on Raspberry Pi 4
 INSTRUCTIONS
 Open a terminal window
 
