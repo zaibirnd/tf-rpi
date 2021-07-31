@@ -1,5 +1,5 @@
 # Tensorflow Installation Raspberry Pi 4
-Installation of Tensorflow 2.0.0 on Raspberry Pi 4
+Installation of Tensorflow on Raspberry Pi 4
 #### INSTRUCTIONS
 - Open a terminal window
 - If remoting into your Raspberry Pi: ssh pi@YOUR PI'S IP ADDRESS HERE
