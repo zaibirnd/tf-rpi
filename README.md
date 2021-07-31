@@ -19,7 +19,7 @@ python3 -m pip install virtualenv
 virtualenv env
 source env/bin/activate
 ```
-### Run the commands based on https://github.com/PINTO0309/Tensorflow-bin/#usage:
+#### Run the commands based on https://github.com/PINTO0309/Tensorflow-bin/#usage:
 
 ```
 sudo apt-get install -y libhdf5-dev libc-ares-dev libeigen3-dev
@@ -31,7 +31,7 @@ sudo apt-get install -y libatlas-base-dev
 python3 -m pip install -U six wheel mock
 ```
 
-### Pick a tensorflow release from https://github.com/lhelontra/tensorflow-on-arm/releases (I picked 2.0.0): 
+#### Pick a tensorflow release from https://github.com/lhelontra/tensorflow-on-arm/releases (I picked 2.0.0): 
 ```
 python3 -m pip uninstall tensorflow
 python3 -m pip install tensorflow-2.0.0-cp37-none-linux_armv7l.whl
