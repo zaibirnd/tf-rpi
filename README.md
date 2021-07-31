@@ -7,15 +7,15 @@ Installation of Tensorflow 2.0.0 on Raspberry Pi 4
 ## Make your project directory:
 ```
 cd Desktop
-mkdir tf_pi
-cd tf_pi
+mkdir tf-pi
+cd tf-pi
 ```
 ## Make a virtual environment (I'm assuming you have Python 3):
 
 ```
 python3 -m pip install virtualenv
-virtualenv env
-source env/bin/activate
+virtualenv tf-env
+source tf-env/bin/activate
 ```
 #### Run the commands based on https://github.com/PINTO0309/Tensorflow-bin/#usage:
 
@@ -61,5 +61,4 @@ sudo apt-get install -y libatlas-base-dev
 python3 -m pip install -U six wheel mock
 wget https://github.com/lhelontra/tensorflow-on-arm/releases/download/v2.4.0/tensorflow-2.4.0-cp37-none-linux_armv7l.whl
 python3 -m pip install tensorflow-2.4.0-cp37-none-linux_armv7l.whl
-
 ```
